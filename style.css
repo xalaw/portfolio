@@ -17,6 +17,7 @@ p, span, pre {
     top: 0;
     left: 0;
     overflow: hidden;
+    z-index: -1;
 }
 #background span {
     display: block;
@@ -24,35 +25,35 @@ p, span, pre {
 
 }
 #background span:nth-child(1){
-    height: 50px;
-    width: 50px;
+    height: 30%;
+    width: 40%;
     right: -4%;
-    top: 3%;
+    top: -27%;
     transform: rotate(10deg);
     background-color: #e2477e;
 }
 #background span:nth-child(2){
-    height: 50px;
-    width: 50px;
-    top: 10%;
+    height: 30%;
+    width: 40%;
+    top: -20%;
     left: -2%;
     transform: rotate(-13deg);
     background-color: #ffb937;
 }
 #background span:nth-child(3){
-    height: 50px;
-    width: 50px;
+    height: 30%;
+    width: 40%;
     bottom: 10%;
-    left: 4%;
+    left: -24%;
     background-color: #00ac92;
     transform: rotate(9deg);
 }
 #background span:nth-child(4){
     transform: rotate(-13deg);
     bottom: 0;
-    right: 0;
-    height: 50px;
-    width: 50px;
+    right: -20%;
+    height: 30%;
+    width: 40%;
     background-color: #68d0ef;
 }
 header {
@@ -60,9 +61,11 @@ header {
     position:relative;
 }
 header h1 {
+    margin-top: 0;
     text-transform: uppercase;
     color: #6b325d;
     margin-bottom: 3px;
+    padding-top: 18%;
 }
 header address {
     font-style: normal;
@@ -183,7 +186,14 @@ section img {
     bottom:1px;
     box-shadow: 0px 5px 5px rgba(192,192,192,0.7);
 }
-
+section.connection {
+    border-top: 6px solid #d7d0c6;
+    text-align: center;
+    padding-bottom: 10%;
+}
+section.connection h2 {
+    color: #ffb937;
+}
 @media (min-width: 700px) {
     section.projects {
         display:flex;
