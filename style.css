@@ -30,7 +30,7 @@ p, span, pre {
     right: -4%;
     top: -27%;
     transform: rotate(10deg);
-    background-color: #e2477e;
+    background-color: #886677;
 }
 #background span:nth-child(2){
     height: 30%;
@@ -38,14 +38,14 @@ p, span, pre {
     top: -20%;
     left: -2%;
     transform: rotate(-13deg);
-    background-color: #ffb937;
+    background-color: #bb5599;
 }
 #background span:nth-child(3){
     height: 30%;
     width: 40%;
     bottom: 10%;
     left: -24%;
-    background-color: #00ac92;
+    background-color: #ccaabb;
     transform: rotate(9deg);
 }
 #background span:nth-child(4){
@@ -54,7 +54,7 @@ p, span, pre {
     right: -20%;
     height: 30%;
     width: 40%;
-    background-color: #68d0ef;
+    background-color: #ffccdd;
 }
 header {
     text-align:center;
@@ -93,8 +93,8 @@ section.projects {
     border-top: 6px solid #d7d0c6;
 }
 section.projects h2 {
-    color: #72e5d2;
-    text-align: right;
+    color: #ccaabb;
+    text-align: left;
 }
 section.projects header {
     padding: 1px 20px;
@@ -217,5 +217,11 @@ section.connection h2 {
     }
     .links li {
         margin-left: 4%;
+    }
+    section.projects header {
+    padding: 1px 3px;
+    }
+    section.projects header p {
+        text-align:left;
     }
 }
