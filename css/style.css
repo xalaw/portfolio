@@ -22,10 +22,16 @@ a {
   color: #a8ae7e;
   text-decoration: none;
 }
+
 h3 {
   font-weight: 900;
   font-size: 1.5em;
 }
+
+hr {
+  margin: 2.5em 0;
+}
+
 blockquote {
   width: 82%;
   max-width: 800px;
@@ -38,7 +44,7 @@ blockquote {
 blockquote span {
   font-size: normal;
 }
-section {
+section.about, section.project {
   width: 90%;
   max-width: 800px;
   margin: 0 auto 2.25em;
@@ -67,9 +73,20 @@ content: "";
   clear: both;
 }
 .float-left {
-  float:left;
-  margin-right: 20px;
+  width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+  .float-left {
+    float:left;
+    margin-right: 20px;
     width: 40%;
+  }
+}
+.block-dd dd {
+  display: block;
+}
+.block-dd dd::after {
+  content: "";
 }
 /* -------------------------------- 
 
@@ -778,12 +795,18 @@ section.project img {
     border: 1px solid #fff;
 }
 .links {
-    text-align: center;
-    width: 40%;
-    float:left;
-    clear: left;
-    margin-top: 15px;
+  text-align: center;
+  margin: 15px 0 50px;
 }
+@media only screen and (min-width: 1024px) {
+  .links {
+      width: 40%;
+      float:left;
+      clear: left;
+      margin: 15px 0 15px;
+  }
+}
+
 .links li {
     display: inline-block;
     margin-left: 15px;
