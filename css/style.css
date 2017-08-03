@@ -22,10 +22,11 @@ a {
   color: #a8ae7e;
   text-decoration: none;
 }
-
-h3 {
-  font-weight: 900;
-  font-size: 1.5em;
+.cd-project-wrapper h2 {
+  color:#682040;
+}
+.cd-project-wrapper section h3 {
+  font-size: 1.15em;
 }
 
 hr {
@@ -452,7 +453,7 @@ Projects
 
 .cd-projects-previews li:nth-of-type(2) a,
 .cd-projects > li:nth-of-type(2) .preview-image {
-  background: #af2b4e ;
+  background: #682040 ;
 
 }
 
@@ -651,7 +652,7 @@ li.selected .cd-project-title,
 }
 .cd-project-info h2 {
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 1.45em;
 }
 .cd-project-info-list {
   list-style: circle;
@@ -788,6 +789,11 @@ section.project {
     width: 100%;
     margin-bottom: 50px;
 }
+section.project h3 {
+    font-size: 1.5em;
+    font-weight: 900;
+    color:#682040;
+}
 section.project h4 {
     margin-top: -19px;
 }
@@ -884,12 +890,12 @@ section.project img {
   -moz-osx-font-smoothing: grayscale;
 }
 .no-touch .cd-primary-nav a:hover {
-  background-color: #a8ae7e;
+  background-color: #cb9a7f;
 }
 .cd-primary-nav .cd-label {
   position: relative;
   margin: 2.4em 0 2em;
-  color: #a8ae7e;
+  color: #cb9a7f;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.2rem;
