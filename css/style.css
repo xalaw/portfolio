@@ -383,7 +383,6 @@ Projects
 }
 @media only screen and (min-width: 1024px) {
   .cd-projects-previews li {
-    display: inline-block;
     height: 100%;
     width: 25%;
     float: left;
@@ -952,35 +951,40 @@ section.project img {
 Background Images
 -------------------------------- */
 
-.background-tmz {
+.screenshot-tmz, .screenshot-katieb {
   width: 100%;
   float: none;
 }
 
 @media only screen and (min-width: 701px) {
-  .background-tmz {
+  .screenshot-tmz, .screenshot-katieb {
     width: 50%;
     float: right;
+  }
+  .screenshot-tmz {
     transform: rotate(-13deg);
   }
-  .dev-tmz {
+  .screenshot-katieb {
+    transform: rotate(13deg);
+  }
+  .dev-tmz, .dev-katieb {
     position:relative;
     overflow: hidden;
   }
-  .dev-tmz ul {
+  .dev-tmz ul, .dev-katieb ul {
     float: left;
     width: 40%;
   }
 }
 @media only screen and (min-width: 1120px) {
-  .background-tmz {
+  .screenshot-tmz, .screenshot-katieb {
     width: 63%;
   }
-  .dev-tmz ul {
+  .dev-tmz ul, .dev-katieb ul {
     float: left;
     width: 27%;
   }
-  .dev-tmz ul li {
+  .dev-tmz ul li, .dev-katieb ul li {
     margin-top: 4em;
   }
 }
