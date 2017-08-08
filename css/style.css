@@ -674,6 +674,7 @@ li.selected .cd-project-title,
   list-style: circle;
   margin: 10px 20px;
 }
+
 .cd-project-info-list li {
   margin: 1.25em 0px;
 }
@@ -947,7 +948,42 @@ section.project img {
     font-size: 4rem;
   }
 }
+/* --------------------------------
+Background Images
+-------------------------------- */
 
+.background-tmz {
+  width: 100%;
+  float: none;
+}
+
+@media only screen and (min-width: 701px) {
+  .background-tmz {
+    width: 50%;
+    float: right;
+    transform: rotate(-13deg);
+  }
+  .dev-tmz {
+    position:relative;
+    overflow: hidden;
+  }
+  .dev-tmz ul {
+    float: left;
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 1120px) {
+  .background-tmz {
+    width: 63%;
+  }
+  .dev-tmz ul {
+    float: left;
+    width: 27%;
+  }
+  .dev-tmz ul li {
+    margin-top: 4em;
+  }
+}
 /* -------------------------------- 
 
 JavaScript Disabled
