@@ -17,7 +17,6 @@ jQuery(document).ready(function($){
 	//open project
 	projectsPreviewWrapper.on('click', 'a', function(event){
 		event.preventDefault();
-        console.log('projectsPreviewWrapper.onClick');
 		if( animating == false ) {
 			animating = true;
 			navigationTrigger.add(projectsContainer).addClass('project-open');
@@ -27,7 +26,6 @@ jQuery(document).ready(function($){
 
 	navigationTrigger.on('click', function(event){
 		event.preventDefault();
-		console.log('navigationTrigger.onClick');
 		if( animating == false ) {
 			animating = true;
 			if( navigationTrigger.hasClass('project-open') ) {
@@ -54,7 +52,6 @@ jQuery(document).ready(function($){
 
 	//scroll down to project info
 	projectsContainer.on('click', '.scroll', function(){
-        console.log('projectsContainer.onClick');
 		projectsContainer.animate({'scrollTop':$(window).height()}, 500); 
 	});
 
