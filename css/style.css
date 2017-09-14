@@ -957,17 +957,17 @@ section.project img {
 Background Images
 -------------------------------- */
 
-.screenshot-tmz, .screenshot-katieb {
+.screenshot-tmz, .screenshot-katieb, .screenshot-movement133 {
   width: 100%;
   float: none;
 }
 
 @media only screen and (min-width: 701px) {
-  .screenshot-tmz, .screenshot-katieb {
+  .screenshot-tmz, .screenshot-katieb, .screenshot-movement133 {
     width: 50%;
     float: right;
   }
-  .screenshot-tmz {
+  .screenshot-tmz, .screenshot-movement133 {
     transform: rotate(-13deg);
   }
   .screenshot-katieb {
@@ -977,7 +977,7 @@ Background Images
     position:relative;
     overflow: hidden;
   }
-  .dev-tmz ul, .dev-katieb ul {
+  .dev-tmz ul, .dev-katieb ul, .dev-movement133 ul {
     float: left;
     width: 40%;
   }
@@ -989,6 +989,10 @@ Background Images
   .dev-tmz ul, .dev-katieb ul {
     float: left;
     width: 27%;
+  }
+  .dev-movement133 ul {
+    float: left;
+    width: 44%;
   }
   .dev-tmz ul li, .dev-katieb ul li {
     line-height: 1.5em;
