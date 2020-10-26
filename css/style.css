@@ -25,6 +25,11 @@ a {
 .cd-project-wrapper h2 {
   color:#682040;
 }
+.cd-project-wrapper h2 span {
+  font-size: .5em;
+  color: #7d7c7b;
+  font-weight: 400;
+}
 .cd-project-wrapper section h3 {
   font-size: 1.15em;
 }
